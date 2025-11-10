@@ -1,0 +1,218 @@
+/* Dynamic Theme CSS - Generated automatically */
+
+:root {
+    /* Tek Renk Tema - Modern Mavi */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-card: #ffffff;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+    --accent-color: #2563eb;
+    --accent-hover: #1d4ed8;
+    --shadow: 0 1px 3px 0 rgba(37, 99, 235, 0.1), 0 1px 2px 0 rgba(37, 99, 235, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
+    --sidebar-bg: #eff6ff;
+    --header-bg: #ffffff;
+    --card-gradient: linear-gradient(145deg, #ffffff, #f8fafc);
+    --button-gradient: linear-gradient(135deg, #2563eb, #1d4ed8);
+    --success-gradient: linear-gradient(135deg, #2563eb, #1d4ed8);
+    --danger-gradient: linear-gradient(135deg, #dc2626, #b91c1c);
+    --warning-gradient: linear-gradient(135deg, #d97706, #b45309);
+    --info-gradient: linear-gradient(135deg, #2563eb, #1d4ed8);
+    --dark-text: #ffffff;
+    --light-text: #1e293b;
+    --table-stripe: #f8fafc;
+    --table-hover: #eff6ff;
+    --input-bg: #ffffff;
+    --input-border: #d1d5db;
+    --input-focus: #2563eb;
+    --modal-bg: #ffffff;
+    --modal-overlay: rgba(0, 0, 0, 0.5);
+    --tooltip-bg: #1e293b;
+    --tooltip-text: #ffffff;
+    --scrollbar-track: #eff6ff;
+    --scrollbar-thumb: #93c5fd;
+    --scrollbar-thumb-hover: #60a5fa;
+    
+    /* Bildirim Sistemi Renkleri */
+    --notification-bg: #ffffff;
+    --notification-border: #e2e8f0;
+    --notification-success: #2563eb;
+    --notification-warning: #d97706;
+    --notification-error: #dc2626;
+    --notification-info: #2563eb;
+    --notification-text: #1e293b;
+    --notification-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.1), 0 2px 4px -1px rgba(37, 99, 235, 0.06);
+}
+
+/* Global Theme Application */
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.header, .top-bar {
+    background: var(--header-bg);
+    border-color: var(--border-color);
+}
+
+.sidebar {
+    background: var(--sidebar-bg);
+    border-color: var(--border-color);
+}
+
+.card {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+    box-shadow: var(--shadow);
+}
+
+.btn {
+    background: var(--button-gradient);
+    border-color: var(--accent-color);
+    color: var(--dark-text);
+}
+
+.btn:hover {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+}
+
+.form-control, .form-select {
+    background: var(--input-bg);
+    border-color: var(--input-border);
+    color: var(--text-primary);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--input-focus);
+    box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+}
+
+.table {
+    background: var(--bg-card);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: var(--table-stripe);
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: var(--table-hover);
+}
+
+.modal-content {
+    background: var(--modal-bg);
+    border-color: var(--border-color);
+}
+
+.alert {
+    border-color: var(--border-color);
+}
+
+.badge {
+    background: var(--accent-color);
+    color: var(--dark-text);
+}
+
+.nav-link {
+    color: var(--text-secondary);
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-color);
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.pagination .page-link {
+    color: var(--accent-color);
+    border-color: var(--border-color);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.dropdown-menu {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+.dropdown-item {
+    color: var(--text-primary);
+}
+
+.dropdown-item:hover {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.tooltip-inner {
+    background: var(--tooltip-bg);
+    color: var(--tooltip-text);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
+/* Loading and Progress Elements */
+.spinner-border {
+    color: var(--accent-color);
+}
+
+.progress {
+    background-color: var(--bg-secondary);
+}
+
+.progress-bar {
+    background: var(--button-gradient);
+}
+
+/* List and Breadcrumb Elements */
+.list-group-item {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.breadcrumb {
+    background: var(--bg-secondary);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--text-secondary);
+}
+
+/* Code Elements */
+code {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+pre {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+blockquote {
+    border-left-color: var(--accent-color);
+    background: var(--bg-secondary);
+}

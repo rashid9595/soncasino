@@ -1,0 +1,525 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: source sans pro, sans-serif !important;
+}
+
+.bSec {
+    position: relative;
+}
+
+.bSecClear {
+    clear: both;
+}
+
+.bSecOwl {
+    float: left;
+    width: 100%;
+    margin-left: 52px;
+}
+
+    .bSecOwl .owl-item img {
+        width: auto !important;
+    }
+
+.bSecTitle {
+    background-color: #1a283d;
+    padding: 10px 15px 10px 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bSecCon {
+    background-color: #e9e8ea;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bSecLeftChevron {
+    float: left;
+    background: #1a283d;
+    color: #fff;
+    padding: 54.5px 10px;
+    font-size: 30px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 62px;
+    left: 17px;
+}
+
+.bSecRightChevron {
+    float: left;
+    background: #1a283d;
+    color: #fff;
+    padding: 54.5px 10px;
+    font-size: 30px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 62px;
+    right: 17px;
+}
+
+.bSecBox {
+    margin-right: 10px;
+    width: 20%;
+    max-width: 225px;
+    min-width: 128px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+    .bSecBox a {
+        text-decoration: none;
+        color: #000;
+    }
+
+.bSecBoxImg {
+    width: 100%;
+    height: 105px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 60px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+    .bSecBoxImg p {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 13px;
+        padding: 3px;
+    }
+
+    .bSecBoxImg img {
+        top: 0;
+        left: 50%;
+        margin-left: -112.5px;
+        position: absolute;
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+.bSecBoxTit {
+    padding: 0 10px;
+}
+
+    .bSecBoxTit span {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        background-color: #ee0ef7;
+        color: #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 6px 0;
+    }
+
+.swal2-icon {
+    border: none !important;
+}
+
+.ttSmsButton, .swal2-confirm {
+    display: inline-block !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    background-color: #f4e60a !important;
+    border-color: #f4e60a !important;
+    padding: 10px 15px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    margin-top: 13px !important;
+    margin-right: 10px !important;
+    cursor: pointer !important;
+    width: 100px !important;
+}
+
+    .ttSmsButton:hover, .ttSmsButton:focus, .swal2-confirm:hover, swal2-confirm:focus {
+        background-color: #dacd0e !important;
+    }
+
+.ttSmsVazgec {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f1bb16;
+    padding: 10px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 13px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.ttSmsUyari {
+    display: none;
+}
+
+.smsKutu {
+    position: absolute;
+    top: -170px;
+    left: calc(50% - 140px);
+}
+
+.smsDesc {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+    .smsDesc span {
+        display: block;
+        font-weight: 900;
+        font-size: 25px;
+        color: #fff;
+    }
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgba(0,0,0,.8) !important;
+}
+
+.swal2-popup {
+    color: #fff !important;
+    background-color: #1b1f24 !important;
+}
+
+.nero-table-2 {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #1b1f24;
+}
+
+    .nero-table-2 caption {
+        font-size: 1.5em;
+        margin: 0.5em 0 0.75em;
+    }
+
+    .nero-table-2 tr {
+        border: 1px solid #ddd;
+        padding: 0.35em;
+    }
+
+    .nero-table-2 th {
+        color: #f4e60a;
+        font-size: 15px;
+    }
+
+    .nero-table-2 td {
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .nero-table-2 th,
+    .nero-table-2 td {
+        padding: 0.625em;
+        text-align: left;
+    }
+
+    .nero-table-2 th {
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+
+/*.btn-redd:hover,
+.btn-redd.btn-redd:focus {
+    background-color: #dacd0e;
+}*/
+
+.btn-yelloww {
+    background-color: #f4e60a;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #f4e60a;
+}
+
+.btn-redd {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.btn-greenn {
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.stats {
+    margin-left: 1rem;
+}
+
+.records{
+    float:left;
+}
+.dvrecords {
+    margin-bottom:20px;
+    padding: 0 0 5px;
+}
+.pagination {
+    float: right;
+}
+
+    .pagination ul {
+        margin: 0 1rem;
+        padding-left: 0;
+        list-style-type: none;
+    }
+
+.page-number {
+    display: inline;
+}
+
+    .page-number a {
+        text-decoration: none;
+    }
+
+.pagination-3 .page-number {
+    margin: 0.25em;
+}
+
+    .pagination-3 .page-number a {
+        padding: 0.125em;
+    }
+
+.pagination-3 .active {
+    padding: 4px 8px;
+    border-radius: 50%;
+    background-color: #1b1f24;
+    color: white;
+}
+
+    .pagination-3 .active a {
+        color: white;
+    }
+
+.pagination-3 .page-number a {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 700px) {
+    .pagination {
+        float: left;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nero-table-2 {
+        border: 0;
+        color: #fff;
+    }
+
+        .nero-table-2 caption {
+            font-size: 1.3em;
+        }
+
+        .nero-table-2 thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        .nero-table-2 tr {
+            border-bottom: 3px solid #ddd;
+            display: block;
+            margin-bottom: 0.625em;
+        }
+
+            .nero-table-2 tr::before {
+                border-bottom: 0;
+            }
+
+        .nero-table-2 td {
+            border-bottom: 1px solid #ddd;
+            display: block;
+            font-size: 0.8em;
+            text-align: right;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            -webkit-line-clamp: 100;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            color: #fff !important;
+        }
+
+
+
+            .nero-table-2 td::before {
+                /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                color: #f4e60a;
+                text-transform: uppercase;
+            }
+
+            .nero-table-2 td:last-child {
+                border-bottom: 0;
+            }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .bSecBox {
+        width: 33.33%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .bSecBox {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .bSecBox {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .bSecBox {
+        width: 100%;
+    }
+}
+
+#loader-bg{
+    position:relative;
+    top:0;
+    width:100%;
+    height:50vh;
+    background-color:#000;
+}
+
+.middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.bar {
+    width: 10px;
+    height: 70px;
+    background: #fff;
+    display: inline-block;
+    transform-origin: bottom center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+    animation: loader 1.2s linear infinite;
+}
+
+.bar1 {
+    animation-delay: 0.1s;
+}
+
+.bar2 {
+    animation-delay: 0.2s;
+}
+
+.bar3 {
+    animation-delay: 0.3s;
+}
+
+.bar4 {
+    animation-delay: 0.4s;
+}
+
+.bar5 {
+    animation-delay: 0.5s;
+}
+
+.bar6 {
+    animation-delay: 0.6s;
+}
+
+.bar7 {
+    animation-delay: 0.7s;
+}
+
+.bar8 {
+    animation-delay: 0.8s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scaleY(0.1);
+        background:;
+    }
+
+    50% {
+        transform: scaleY(1);
+        background: #f4e60a;
+    }
+
+    100% {
+        transform: scaleY(0.1);
+        background: transparent;
+    }
+}

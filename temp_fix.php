@@ -1,0 +1,1 @@
+<?php $pageContent = $content; ?>

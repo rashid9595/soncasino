@@ -1,0 +1,28 @@
+ <IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+        RewriteRule ^drakon_api/?$ drakon_api/api.php [L]
+        RewriteRule ^gold_api/?$ gold_api/api.php [L]a
+        RewriteRule ^tbs2/?$ tbs2/api.php [L]
+      
+        
+
+  Options -Indexes
+   
+
+
+    
+    # .php uzantılarını gizle
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([^\.]+)$ $1.php [L]
+
+    </IfModule>
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW IPALLOWID:tsBntdue0n
+allow from 82.25.98.231
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE tsBntdue0n:IPALLOWID
+
+
+#Order Allow,Deny
+#Allow from 85.106.138.178
+#Deny from all

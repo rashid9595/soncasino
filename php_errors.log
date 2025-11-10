@@ -1,0 +1,1 @@
+[13-Apr-2025 07:03:12 UTC] Error logging activity: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u260321069_ana.admin_activity_logs' doesn't exist
